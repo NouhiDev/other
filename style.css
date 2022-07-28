@@ -1,76 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-
-* {
-  margin: auto;
+:root {
+  font-family: 'Roboto', sans-serif;
   padding: auto;
+  margin: auto;
+  background-color: #121317;
 }
 
-body {
-  background-color: #1d2329;
-  padding-bottom: 50px;
-}
-
-body .tit {
+.title {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
+  padding: auto;
+  margin: 15px;
   text-align: center;
-  color: white;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+.title-split {
+  color: rgb(255, 66, 66);
+}
+
+.sub-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  padding: auto;
+  margin: 15px;
+  text-align: center;
+  text-transform: uppercase;
   font-weight: 1;
+  color: #424855;
+  font-size: 22px;
+  letter-spacing: 0.1ch;
+}
+
+.sub-sub-title {
+  font-family: 'Roboto', sans-serif;
+  padding: auto;
+  margin: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 1;
+  color: rgb(180, 180, 180);
+  font-size: 22px;
+  letter-spacing: 0.1ch;
+}
+
+.dummy-snippet-1-l {
+  color: rgb(35, 38, 42);
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  text-shadow: 1px 1px 5px rgb(0, 0, 0);
-  font-size: 40px;
+  font-size: 20px;
+  font-style: italic;
+  text-align: left;
 }
 
-
-.table-sortable th { /* catergory titles */
-  cursor: pointer;
-  padding: 15px;
-  font-size: 20px;
-  background-color: #517394;
-  margin: auto;
-  color: white;
+.dummy-snippet-1-r {
+  color: rgb(35, 38, 42);
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
-  border-radius: 5px 5px 0px 0px;
-  border: 1px #1d2329 solid;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 1;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-style: italic;
+  text-align: right;
 }
 
-.table-sortable tr { /* catergory content */
-  cursor: pointer;
-  padding: 5px;
-  font-size: 20px;
-  align-items: center;
-  background-color: #3c4754;
+.dummy-snippet-2 {
+  color: rgb(35, 38, 42);
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  padding: auto;
   margin: auto;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.dummy-snippet-3 {
+  color: rgb(35, 38, 42);
   font-family: 'Roboto', sans-serif;
-  text-transform: inherit;
-  color: #c8d3de;
+  text-transform: uppercase;
+  padding: auto;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 10px;
+  font-style: italic;
 }
 
-.rating {
-  font-size: 50px;
-  color: #8597de;
-  text-shadow: 1px 1px 5px rgb(29, 29, 29)
+ul {
+  padding-left: 0; 
+  text-align:center; 
+  list-style-type:none;
 }
 
-.table-sortable .th-sort-asc::after {
-  content: "\25b4";
+li {
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #424855;
+  width: 20em;
+  text-align: center;
+
 }
 
-.table-sortable .th-sort-desc::after {
-  content: "\25be";
+li:hover {
+  background-color: rgb(255, 66, 66);
 }
 
-.table-sortable .th-sort-asc::after,
-.table-sortable .th-sort-desc::after {
-  margin-left: 10px;
-}
-
-.table-sortable .th-sort-asc,
-.table-sortable .th-sort-desc {
-  background: #486582;
+ul.featured-list-nav li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 5px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-style: italic;
 }
